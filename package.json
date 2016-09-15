@@ -1,0 +1,22 @@
+{
+  "name": "uxtoolbox",
+  "version": "1.0.0",
+  "description": "UX Tool Box - Um projeto da comunidade de UX para a comunidade UX",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/MarcoBrunoBR/uxToolBox.git"
+  },
+  "keywords": [
+    "ux"
+  ],
+  "author": "MarcoBrunoBR",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarcoBrunoBR/uxToolBox/issues"
+  },
+  "homepage": "https://github.com/MarcoBrunoBR/uxToolBox#readme"
+}
