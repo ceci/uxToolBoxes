@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/MarcoBrunoBR/uxToolBox/issues"
   },
-  "homepage": "https://github.com/MarcoBrunoBR/uxToolBox#readme"
+  "homepage": "https://github.com/MarcoBrunoBR/uxToolBox#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
 }
