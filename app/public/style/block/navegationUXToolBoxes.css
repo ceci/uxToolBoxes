@@ -3,6 +3,7 @@
 }
     .wrap-navegationUXToolBoxes {
         width: 130%;
+        margin-bottom: 1.875em;
     }
     .uxUsability .wrap-navegationUXToolBoxes {
         transform: translateX(-15%);
@@ -13,8 +14,6 @@
             padding-top: 25px;
             overflow: hidden;
             height: 1.4em;
-            -webkit-box-shadow: 0px 2px 2px 0px rgba(110,190,72,1);
-            -moz-box-shadow:    0px 2px 2px 0px rgba(110,190,72,1);
             box-shadow:         0px 2px 2px 0px rgba(110,190,72,1);
         }
         .navegationUXToolBoxes:after {

@@ -1,0 +1,13 @@
+.cardUxToolBoxes {
+    background-color: #FFF;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0.625em 5.555%;
+}
+    .cardUxToolBoxes-title {
+        font-size: 1.25em;
+        padding-bottom: .5em;
+        margin-bottom: .5em;
+        border-bottom: 1px solid #ECECEC;
+    }
