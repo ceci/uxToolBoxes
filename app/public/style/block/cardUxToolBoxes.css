@@ -4,6 +4,7 @@
     box-sizing: border-box;
     width: 100%;
     padding: 0.625em 5.555%;
+    overflow: hidden;
 }
     .cardUxToolBoxes-title {
         font-size: 1.25em;
@@ -11,3 +12,30 @@
         margin-bottom: .5em;
         border-bottom: 1px solid #ECECEC;
     }
+        .wrap-cardUxToolBoxes-action {
+            text-transform: uppercase;
+            font-size: .6em;
+            text-align: center;
+        }
+        .wrap-cardUxToolBoxes-action_like {
+            float: left;
+        }
+        .wrap-cardUxToolBoxes-action_notLike {
+            float: right;
+        }
+            .cardUxToolBoxes-action-qtd {
+                background: no-repeat right center;
+                font-size: 1rem;
+                display: block;
+                height: 20px;
+                line-height: 20px;
+                padding: 0 25px 0 5px;
+                margin-bottom: 3px;
+                border-right: 5px solid #FFF;
+            }
+            .cardUxToolBoxes-action-qtd_like {
+                background-image: url('/image/like.svg');
+            }
+            .cardUxToolBoxes-action-qtd_notLike {
+                background-image: url('/image/notLike.svg');
+            }
