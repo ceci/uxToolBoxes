@@ -1,0 +1,46 @@
+.uxUsability {
+    background-color: #B4FC92;
+}
+    .wrap-navegationUXToolBoxes {
+        width: 130%;
+    }
+    .uxUsability .wrap-navegationUXToolBoxes {
+        transform: translateX(-15%);
+    }
+        .navegationUXToolBoxes {
+            font-size: 1.125em;
+            text-align: justify;
+            padding-top: 25px;
+            overflow: hidden;
+            height: 1.4em;
+            -webkit-box-shadow: 0px 2px 2px 0px rgba(110,190,72,1);
+            -moz-box-shadow:    0px 2px 2px 0px rgba(110,190,72,1);
+            box-shadow:         0px 2px 2px 0px rgba(110,190,72,1);
+        }
+        .navegationUXToolBoxes:after {
+            content: '';
+            display: inline-block;
+            width: 100%;
+            height: 0;
+
+        }
+        .uxStrategy .navegationUXToolBoxes {
+            color: #FFF;
+            background-color: #FF8C9E;
+        }
+        .uxUsability .navegationUXToolBoxes {
+            background-color: #CDFFB6;
+        }
+            .navegationUXToolBoxes-item {
+                display: inline-block;
+            }
+
+                .navegationUXToolBoxes-item-action {
+                    filter: blur(.2px);
+                }
+                .uxStrategy [href='#uxStrategy'],
+                .uxUsability [href='#uxUsability'],
+                .uxAnalysis [href='#uxAnalysis'] {
+                    filter: blur(0);
+                    color: #3B3B3B;
+                }
