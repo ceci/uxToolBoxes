@@ -1,6 +1,9 @@
 .wrap-uxToolBoxes {
-    padding-left: 7.8125%;
-    padding-right: 7.8125%;
+    box-sizing: border-box;
+    width: 100vw;
+    padding-left: 7.8125vw;
+    padding-right: 7.8125vw;
+    float: left;
 }
     .uxToolBoxes-item {
         margin-bottom: 1.25em;

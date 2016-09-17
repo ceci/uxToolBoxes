@@ -1,0 +1,16 @@
+.uxStrategy .wrapAll {
+    transform: translateX(0vw);
+}
+.uxUsability .wrapAll {
+    transform: translateX(-100vw);
+}
+.uxAnalysis .wrapAll {
+    transform: translateX(-200vw);
+}
+.wrapAll {
+    padding: 5.3125em 0 3.75em;
+    width: 300vw;
+    overflow: hidden;
+
+    transition: transform .3s linear;
+}
